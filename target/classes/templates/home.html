@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Book Store</title>
+    <style>
+        .hero-section {
+            background: linear-gradient(rgba(0,0,0,0.7), url('https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            background-position: center;
+            padding: 80px 0;
+        }
+        .content-section {
+            padding: 40px 0;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">Smart Book Store</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item"><a class="nav-link active" href="/">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="available_books">Available Books</a></li>
+                <li class="nav-item"><a class="nav-link" href="my_books">My Books</a></li>
+            </ul>
+            <a class="btn btn-outline-light" href="book_register">New Book Register</a>
+        </div>
+    </div>
+</nav>
+
+<div class="hero-section text-white text-center">
+    <div class="container">
+        <h1 class="display-5 fw-bold mb-3">WELCOME TO OUR SMART BOOKSTORE</h1>
+    </div>
+</div>
+
+<div class="content-section">
+    <div class="container text-center">
+        <p class="lead">
+            Welcome to Smart Bookstore, where cutting-edge technology meets the timeless joy of reading!
+            We’re not just a bookstore—we’re your AI-powered literary companion, designed to help you discover
+            books tailored to your tastes, mood, and interests.
+            At Smart Bookstore, we believe the right book has the power to inspire, entertain, and transform.
+            Let us guide you to your next great read—because every book lover deserves a bookstore that gets them
+        </p>
+        <img src="https://images.unsplash.com/photo-1589998059171-988d887df646?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+             alt="Bookstore"
+             class="img-fluid mt-3 rounded"
+             style="max-width: 100%">
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Book Modal -->
+<div class="modal fade" id="bookModal" tabindex="-1">
+    <!-- Modal content from previous example -->
+</div>
+
+<footer class="fixed-bottom bg-dark text-white text-center py-3">
+    &copy; 2025 Smart Bookstore - All Rights Reserved
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
